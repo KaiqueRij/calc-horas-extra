@@ -1,0 +1,45 @@
+html, body, #main {
+  height: 100%;
+}
+
+body {
+  background: #f0efef;
+}
+
+#main #calculator {
+  padding: 0;
+  min-width: 350px;
+  background: #0f4c75;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#main #calculator span {
+  color: #0f4c75;
+  font-size: 10rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#main #calculator div {
+  background: #f0efef;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#main #calculator label {
+  margin-bottom: -10px;
+  color: #f0efef;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+form .form-control, .btn {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  #main #calculator span {
+    font-size: 7rem;
+  }
+}
